@@ -11,8 +11,6 @@ public:
     double X;
     double Y;
     double Z;
-
-    void Fill();
 };
 
 

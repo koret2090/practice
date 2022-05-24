@@ -5,7 +5,7 @@ int main() {
     std::cout << "Hello, World!" << std::endl;
 
     Calculator calculator;
-    calculator.Print();
+    calculator.Fill();
 
     return 0;
 }

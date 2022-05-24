@@ -7,16 +7,22 @@
 
 
 #include "Vector3.h"
-#include "Rocket.h"
-#include "Target.h"
 
 class Calculator {
 public:
     Calculator();
+    void Fill();
+    void Calculate();
 
 private:
-   Rocket rocket;
-   Target target;
+    Vector3 rocketV;
+    Vector3 targetV;
+    Vector3 targetRel;
+    Vector3 targetVRel;
+    double l;
+    double phi;
+
+    Vector3 FromEarthToVelocity(Vector3 angles, Vector3 vector);
 
 };
 
